@@ -2,6 +2,8 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="cardgame.org.cornell.cardgame.cardgame.main" target="1.8" />
+      <module name="cardgame.org.cornell.cardgame.cardgame.test" target="1.8" />
       <module name="org.cornell.cardgame.cardgame.main" target="1.8" />
       <module name="org.cornell.cardgame.cardgame.test" target="1.8" />
     </bytecodeTargetLevel>
