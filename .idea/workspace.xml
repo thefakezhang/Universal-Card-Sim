@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="525a18f9-0b4e-4a72-bc14-5389dfbcd844" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cardgame/src/main/java/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cardgame/src/main/java/Game.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cardgame/src/main/java/Trait.java" beforeDir="false" afterPath="$PROJECT_DIR$/cardgame/src/main/java/Trait.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cardgame/src/main/java/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/cardgame/src/main/java/Card.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/cardgame/.gradle/" />
@@ -61,11 +61,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cardgame/src/main/java/Card.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="135">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cardgame/src/main/java/State.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -79,7 +88,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cardgame/src/main/java/Trait.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
@@ -117,9 +126,10 @@
       <list>
         <option value="$PROJECT_DIR$/cardgame/src/main/java/Wut.java" />
         <option value="$PROJECT_DIR$/cardgame/build.gradle" />
-        <option value="$PROJECT_DIR$/cardgame/src/main/java/Card.java" />
         <option value="$PROJECT_DIR$/cardgame/src/main/java/Mode.java" />
         <option value="$PROJECT_DIR$/cardgame/src/main/java/Trait.java" />
+        <option value="$PROJECT_DIR$/cardgame/src/main/java/Card.java" />
+        <option value="$PROJECT_DIR$/cardgame/src/main/java/State.java" />
       </list>
     </option>
   </component>
@@ -185,7 +195,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552876683967" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552881926405" />
     <property name="jdk.selected.JAVA_MODULE" value="10" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -234,12 +244,12 @@
       <workItem from="1552405105961" duration="2214000" />
       <workItem from="1552425481243" duration="262000" />
       <workItem from="1552838851504" duration="7832000" />
-      <workItem from="1552875095981" duration="1572000" />
+      <workItem from="1552875095981" duration="2537000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14771000" />
+    <option name="totallyTimeSpent" value="15736000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="0" />
@@ -386,16 +396,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cardgame/src/main/java/Card.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cardgame/src/main/java/Mode.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -421,6 +421,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cardgame/src/main/java/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cardgame/src/main/java/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
         </state>
       </provider>
     </entry>
