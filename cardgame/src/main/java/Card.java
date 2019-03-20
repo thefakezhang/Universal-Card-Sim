@@ -2,34 +2,26 @@ import java.util.LinkedList;
 import java.util.HashMap;
 
 public class Card implements Cloneable {
-   private static HashMap<String, Card> generatedCards = new HashMap<String, Card>();
    String title;
    LinkedList<Rule> rules;
    int artID; //this may be subject to change in order to better reflect how we connect each card to its art.
    LinkedList<Trait> traits;
    State s;
+   int ID;
 
    /**
-    * Generates a card from the mode's information.
+    * Generates a card from the mode's information. (Currently STUB)
     */
-   public Card generateCard(String t, Mode m) {
-      if (generatedCards.containsKey(t)) {
-         try {
-            return (Card) generatedCards.get(t).clone();
-         } catch (CloneNotSupportedException e) {
-            System.err.println("Card failed to clone on generation.");
-            //go on to generate from source and overwrite the old generatedCards value.
-         }
-      }
-
-      return new Card("temp", new LinkedList<Rule>(), 0, new LinkedList<Trait>());
+   public Card generateCard(String title, Mode m, int ID) {
+      return new Card("temp", new LinkedList<Rule>(), 0, new LinkedList<Trait>(), ID);
    }
 
-   private Card(String title, LinkedList<Rule> rules, int artID, LinkedList<Trait> traits) {
+   private Card(String title, LinkedList<Rule> rules, int artID, LinkedList<Trait> traits, int ID) {
       this.title = title;
       this.rules = rules;
       this.artID = artID;
       this.traits = traits;
+      this.ID = ID;
    }
 
    @Override
