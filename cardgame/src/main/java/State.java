@@ -1,8 +1,3 @@
-
-enum Orientation {
-   FORWARD, RIGHT, LEFT, DOWN;
-}
-
 /**
  * Stores the physical position of a particular card.
  */
