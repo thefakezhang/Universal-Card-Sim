@@ -31,4 +31,9 @@ public class Trait {
    public boolean equals(Object o) {
       return this == o || this.type.equals(o);
    }
+
+   @Override
+   public String toString() {
+      return type;
+   }
 }

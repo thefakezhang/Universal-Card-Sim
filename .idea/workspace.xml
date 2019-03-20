@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="525a18f9-0b4e-4a72-bc14-5389dfbcd844" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cardgame/src/main/java/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/cardgame/src/main/java/State.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cardgame/src/main/java/Trait.java" beforeDir="false" afterPath="$PROJECT_DIR$/cardgame/src/main/java/Trait.java" afterDir="false" />
     </list>
@@ -70,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cardgame/src/main/java/State.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="594">
+              <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
               <folding>
                 <element signature="e#305#306#0" expanded="true" />
                 <element signature="e#322#323#0" expanded="true" />
@@ -85,15 +84,18 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cardgame/src/main/java/Trait.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="540">
+              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
               <folding>
                 <element signature="e#242#243#0" expanded="true" />
                 <element signature="e#271#272#0" expanded="true" />
                 <element signature="e#833#834#0" expanded="true" />
                 <element signature="e#862#863#0" expanded="true" />
+                <element signature="e#1027#1028#0" expanded="true" />
+                <element signature="e#1051#1052#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,8 +141,8 @@
         <option value="$PROJECT_DIR$/cardgame/build.gradle" />
         <option value="$PROJECT_DIR$/cardgame/src/main/java/Mode.java" />
         <option value="$PROJECT_DIR$/cardgame/src/main/java/Card.java" />
-        <option value="$PROJECT_DIR$/cardgame/src/main/java/State.java" />
         <option value="$PROJECT_DIR$/cardgame/src/main/java/Trait.java" />
+        <option value="$PROJECT_DIR$/cardgame/src/main/java/State.java" />
       </list>
     </option>
   </component>
@@ -195,6 +197,15 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Universal-Card-Sim" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Universal-Card-Sim" type="462c0819:PsiDirectoryNode" />
+              <item name="cardgame" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="State.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
           </expand>
           <select />
@@ -256,12 +267,12 @@
       <workItem from="1552425481243" duration="262000" />
       <workItem from="1552838851504" duration="7832000" />
       <workItem from="1552875095981" duration="2569000" />
-      <workItem from="1553042933325" duration="2352000" />
+      <workItem from="1553042933325" duration="2512000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18120000" />
+    <option name="totallyTimeSpent" value="18280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="823" extended-state="0" />
@@ -433,27 +444,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cardgame/src/main/java/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#366#367#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cardgame/src/main/java/Trait.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="540">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
           <folding>
             <element signature="e#242#243#0" expanded="true" />
             <element signature="e#271#272#0" expanded="true" />
             <element signature="e#833#834#0" expanded="true" />
             <element signature="e#862#863#0" expanded="true" />
+            <element signature="e#1027#1028#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cardgame/src/main/java/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="49" column="38" selection-start-line="49" selection-start-column="38" selection-end-line="49" selection-end-column="38" />
+          <folding>
+            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#366#367#0" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
           </folding>
         </state>
       </provider>

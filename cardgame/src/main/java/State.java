@@ -41,4 +41,13 @@ public class State {
       State s = (State) o;
       return s.isFaceup() == this.face && s.getOrientation() == this.orient;
    }
+
+   @Override
+   public String toString() {
+      if (face) {
+         return "Faceup, " + orient;
+      } else {
+         return "Facedown, " + orient;
+      }
+   }
 }
