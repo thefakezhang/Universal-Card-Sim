@@ -13,7 +13,8 @@ public class Card implements Cloneable {
     * Generates a card from the mode's information. (Currently STUB)
     */
    public Card generateCard(String title, Mode m, int ID) {
-      return new Card("temp", new LinkedList<Rule>(), 0, new LinkedList<Trait>(), ID);
+      //Looks at the JSON file (eventually...)
+      return new Card(title, new LinkedList<Rule>(), 0, new LinkedList<Trait>(), ID);
    }
 
    private Card(String title, LinkedList<Rule> rules, int artID, LinkedList<Trait> traits, int ID) {
