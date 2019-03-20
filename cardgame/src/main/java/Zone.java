@@ -1,26 +1,39 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class Zone {
     String descriptor;
-    List<Card> cards;
+    String id;
+    List<Card> cards = new ArrayList<>();
 
     /**
      * Creates a zone with a descriptor
      * @param descriptor The description of the zone
+     * @param id The zone id
      */
-    public Zone(String descriptor){
+    public Zone(String id, String descriptor){
+        this.id = id;
         this.descriptor = descriptor;
     }
+
+    public Zone(String id){
+        this.id = id;
+        descriptor = "";
+    }
+
 
     /**
      * Creates a zone with a descriptor and a list of cards in the zone
      * @param descriptor The description of the zone
-     * @param cards
+     * @param cards The cards currently in the zone
+     * @param id The zone id
      */
-    public Zone(String descriptor, List<Card> cards){
+    /*
+    public Zone(String id, String descriptor, List<Card> cards){
+        this.id = id;
         this.descriptor = descriptor;
         this.cards = cards;
-    }
+    }*/
 
     /**
      *  plays a card on top of what is already in play
