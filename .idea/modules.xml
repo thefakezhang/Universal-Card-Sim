@@ -4,9 +4,9 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Card Game.iml" filepath="$PROJECT_DIR$/Card Game.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cardgame.iml" filepath="$PROJECT_DIR$/.idea/modules/cardgame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cardgame.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cardgame.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/cardgame.org.cornell.cardgame.cardgame.main.iml" filepath="$PROJECT_DIR$/.idea/modules/cardgame.org.cornell.cardgame.cardgame.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cardgame.org.cornell.cardgame.cardgame.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cardgame.org.cornell.cardgame.cardgame.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.cornell.cardgame.cardgame.iml" filepath="$PROJECT_DIR$/.idea/modules/org.cornell.cardgame.cardgame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/cardgame.test.iml" filepath="$PROJECT_DIR$/.idea/modules/cardgame.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.cornell.cardgame.cardgame.main.iml" filepath="$PROJECT_DIR$/.idea/modules/org.cornell.cardgame.cardgame.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/org.cornell.cardgame.cardgame.test.iml" filepath="$PROJECT_DIR$/.idea/modules/org.cornell.cardgame.cardgame.test.iml" />
     </modules>

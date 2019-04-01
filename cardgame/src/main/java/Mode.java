@@ -1,4 +1,8 @@
-import java.io.File;
+import java.io.*;
+import java.util.*;
+//import org.json.simple.JSONArray;
+//import org.json.simple.JSONObject;
+//import org.json.simple.parser.JSONParser;
 
 public class Mode {
    private File source;
@@ -9,5 +13,9 @@ public class Mode {
 
    public File getSource() {
       return source;
+   }
+
+   public void loadData() {
+      //TODO
    }
 }

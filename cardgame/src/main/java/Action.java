@@ -5,12 +5,18 @@ import java.util.HashMap;
  */
 public final class Action {
 
-    public static Zone createZone(String id, String descrptor){ return new Zone(id, descrptor); }
+    /**
+     * Create a new uniquely identified zone. If
+     * @param id
+     * @param desc
+     * @return
+     */
+    public static Zone createZone(String id, String desc){ return new Zone(id, desc); }
     public static Zone createZone(String id){return new Zone(id);}
 
     public static void removeZone(HashMap<String, Zone> zones, String id){zones.remove(id);}
 
-    public static Card createCard(String title, Mode m, int ID){return Card.generateCard(title, m, ID);}
+    public static Card createCard(String title, Mode m, String ID){return Card.generateCard(title, m, ID);}
 
     /**
      *
@@ -19,7 +25,7 @@ public final class Action {
      */
     public static void removeCard(Zone z, int index){z.cards.remove(index);}
 
-    public static 
+    public static void moveCard(Zone zStart, int indexStart, Zone zEnd, int indexEnd){zEnd.cards.add(indexEnd, zStart.cards.remove(indexStart));}
 
 
 
