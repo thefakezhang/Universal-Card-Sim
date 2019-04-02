@@ -6,6 +6,7 @@
     <content url="file://$MODULE_DIR$/../../cardgame">
       <excludeFolder url="file://$MODULE_DIR$/../../cardgame/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/../../cardgame/build" />
+      <excludeFolder url="file://$MODULE_DIR$/../../cardgame/out" />
     </content>
     <orderEntry type="jdk" jdkName="10" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />

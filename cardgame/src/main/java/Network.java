@@ -9,12 +9,13 @@ import java.util.HashSet;
 public class Network {
    private HashSet<Mode> loadedModes;
    private HashSet<Instance> runningInstances;
-   private String lastGeneratedID;
+   private static String lastGeneratedID;
 
    public static void main(String[] args) {
       System.out.println("Starting Network...");
       Network n = new Network();
       //Chooses a testing mode and makes an instance of that mode.
+      System.out.println("Loading null Mode...");
       Mode mode = n.loadMode(null);
    }
 
@@ -46,10 +47,10 @@ public class Network {
 
    /**
     * Generates a generic String ID which can be used for instances, zones, cards, etc.
-    * such that this network has no duplicated IDs.
+    * such that there are never any duplicated IDs.
     * @return Unique String ID.
     */
-   public String generateNextID() {
+   public static String generateNextID() {
       lastGeneratedID = generateNextID(lastGeneratedID);
       return lastGeneratedID;
    }
